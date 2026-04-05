@@ -8,7 +8,7 @@
 			- Debye temperatur charakterisiert das Spektrum 
 			- dieses Modell ist realistischer, besondeers bei teifen Temperaturen 
 	2. warum gleicher Hochtemperaturgrenzwert bei spez Wärmekapazität , was ist der Grenzwert 
-		es ist der [[Duolong Petit Wert]] 
+		es ist der [[Duolong Petit law]] 
 		der Hochtemp.grenzwert ist unabhängig unabhängig von der Verteilung der Frequenzen 
 	3. Hochtemperaturgrenzwert berechen
 		$C_V^{\infty} = 3nR = 3 \frac{m}{M} R = 3 \frac{6}{197}mol \cdot 8.314 J/molK=0,76J/K$ 

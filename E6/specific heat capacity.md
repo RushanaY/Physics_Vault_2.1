@@ -2,3 +2,7 @@ $$c_v = \gamma \cdot T$$with the [[Sommerfeld coefficient]] $$\gamma = \frac{\pi
 
 
 from  [[Kap. 4 electronic properties of metalls]]
+
+
+
+![[specific heat capacity 2026-04-05 16.34.33.excalidraw]]

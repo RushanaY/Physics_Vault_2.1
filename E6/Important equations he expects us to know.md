@@ -23,7 +23,7 @@
 
 
 # Kap. 3
-![[Bohr Oppenheimer approximation]]
+![[Born Oppenheimer approximation]]
 
 
 ![[harmonic approximation#one type of atom]]

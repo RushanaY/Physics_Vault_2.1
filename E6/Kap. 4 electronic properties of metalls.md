@@ -1,117 +1,47 @@
-# 4.1 [[free electron gas]] 
-- localised electtrins 
-	- in crystals 
-	- good isolators 
-- delocolised electrons 
-	- in metalls 
-	- electrons do not interact with atomic cores and not with eachother 
-		- => [[free electrons]] gas 
+## 4.1 ![[free electron gas]] 
+
+
+## 4.1.1. ![[Drude (Sommerfeld) model]]
 
 
 
-## 4.1.1. [[Drude Sommerfeld model]] 
-==classical explanaition for conductivity== 
-=>  where suddently the ideas: 
-	- [[Pauli exclustion principle]] 
-	- [[Fermi dirac distribution]] 
-	become improtant are the innovative part 
-- we have calculated the [[dispersion relation for electrons]]
-$$E(\vec k) = \frac{\hbar^2 k^2}{2m}$$
-## [[dispersion relation]] 
--> [[dispersion relation for electrons]]
 
 
-### [[density of states (Zustandsdichte)]] 
+## 4.2. Transport propertis
 
-==number of states per energy unit== (also analogous to what a [[phonon]] does) 
-- assume a cubic body!
-- k value is $\vec k_{x,y,z} = \frac{ 2n \pi}{L_x,y,z}$ 
-	- => 3D density of states $D(\vec k) = 2 \frac{V}{8 \pi^3}$ 
-		- => energy of an electron per square $$E(\vec k) = \frac{\hbar^2 k^2}{2m}$$
-- ![[electronic properties of metalls 2025-12-25 13.32.02.excalidraw]]
-
-###  [[fermi energy]] 
-- [[Pauli exclustion principle]] says that only 2 electrons with different spins can have the same eigen state 
-- maximal possible energy when filling up the system is the fermi energy $E_F$ 
-- $T=0$ gives a sphere with radius $k_F$ being the [[fermi sphere]], whose surface is [[fermi surface]] -> seperates filled from unfilled states 
-- using the [[fermi wave number]] 
-- there are also [[fermi velocity]], [[fermi wavelength]], [[fermi wave number]] and much more 
+### 4.2.1.  ![[electric conductivity]]
+### in the [[Drude (Sommerfeld) model]] 
+- assumption: **electrons move with mean velosity** $\nu_{th}$ 
+- accelerated with the el field $\vec E$, collide with atomic core => lose velocity because of friction 
+- [[drude mean velocity]]$$\vec \nu_D = - \frac{e \tau}{m} \cdot \vec E = - \mu \cdot \vec E$$
+	$\tau$ - characteristic collistion time (probably the amount of time the collistion takes)
+	$\mu= \frac{e \tau}{m}$ - [[Beweglichkeit (mobility)]]   
 
 
-### [[fermi sphere]]
-- at $T=0$ we have a sphere in the $\vec k$ space with the radius $k_F$ 
-- ==it has all the filled states==
+### in the [[Sommerfeld model]] 
+- assume free, [[fermion]]ic gas => abides by the Schrodinger equation and Pauli principle 
+- in thermal equillibrium $\langle \vec k \rangle =0$ there is not current flow 
+- for current flow we need the mean of momentum (wave vector) of electrons to change 
+- -> this is posisble though external forces or through scattering 
+	- in case of scattering we need to consider [[relaxation]] (like in the Drude model) 
+- we want the momentim of the electron to be changed in time $t$ through the force $\vec F$ by the absolute value of $\hbar \partial \vec k$ 
+- => is the same as the shift of the [[fermi sphere]] by $\partial \vec k$ in time $t$ 
+#### application in the Fermi sphere
+- electric field leads to shift of the fermi sphere by $\delta \vec k$ 
+- states inside the area of the sphere get shifted 
+- after electric field is turned off => sphere gets shifted back into the original state via scattering with $\delta \vec k \sim e^{- t/\tau}$ 
+
+#### why fermi velocity and not drift velocity? 
+-> biggest energy that gets transmitted by scattering is $$E_{scattering} \approx  k_B T << E_F$$
+- only electrons on the [[fermi surface]] can participate in scattering processes (because anywhere else there are no filled states to scatter on)
+- those electrons have $| \vec \nu| \approx \nu_F$ 
+- typical shift in the fermi sphere is ca. $\delta k/k_F \simeq 10^{-5}$ 
+- => a small number of electrons move with $\nu_F$, where as in Drude modell all electrons move with $\nu_D << \nu_F$ 
+![[Pasted image 20260322123146.jpg]]
 
 
-### [[fermi surface]] 
-- it is the surface of the [[fermi sphere]]
 
-
-### [[fermi wave number]]
-
-Number of filled states:
-$$N = 2 (\frac{V}{(2\pi)^3}) \cdot (\frac{4}{3} \pi k_F^3)$$
-	$2 (\frac{V}{(2\pi)^3})$ :  [[density of states (Zustandsdichte)]] in the k space 
-	$(\frac{4}{3} \pi k_F^3)$ :  volume of the k space 
-=> we get the wave number $$k_{F, 3D} = (3 \pi^2 n_{3D})^{1/3}$$
-# typical values 
-For the electronic density of $n \approx 5 \cdot 10^{22}cm^{-3}$ we have the according values:
-- fermi wave number $$k_F \simeq 10^8 cm^{-1}$$
-- [[fermi energy]]$$E_F = \frac{\hbar k_F^2}{2m} \simeq 4 eV$$
-- [[fermi temperature]] $$T_F = \frac{E_F}{k_F} \simeq 50 \space 000K$$
-- [[fermi wavelength]] $$\lambda_F = \frac{2 \pi}{k_F} \simeq 1 \overset{\circ}{A}$$
-- [[fermi velocity]] $$\nu_F = \frac{p_F}{m} = \frac{\hbar k_F}{m} \simeq 10^8 cm/s$$
-
-
-## 4.1.2. [[fermi gas]]
-- for $T>0$ we get the [[Fermi dirac distribution]] being $$
- f_{FD} (E) = \frac{1}{e^{\frac{E- \mu}{k_B T}}+1}$$
-with $\mu$ being the [[chemical potential]]	
-
-==It is the probability that a state is filled==
-
-$T=0K$
-- all states under $E= \mu = E_F$ are filled 
-- all states above are empty
-$T>0K$ 
-- electrons can be thermally exicted 
-- those exited electrons leave the states with $E<E_F$ and go to states  with $E>E_F$
--> higher temperature means more electrons go on this journey and he calls it the "Umwandlung" 
-
-Umwandlung:
-- happens in the area of a around $k_B T$
-- at toom temperature the percentage of electrons, that do the Umwandlung is: $$\frac{k_B T}{E_F} \approx 10^{-2} = 1\%$$
-- [[heat capacity]] is in this case 
-$$C_P = \gamma \cdot T + A \cdot T^3$$
-	- the closest that experimental values are to the theoretical ones is in case of the alkali metals 
-	- for transition metalls the assumtion of [[free electrons]] does not hols, because the d-orbit has too much influence onto the [[density of states (Zustandsdichte)]]
-	- generally the expected values are not really what is measured -> reason is the fact that we did not consider all the other possible interactions (like elektron with crystal potential, electron with phonons, electron with eachother) -> the effective mass is therefore bigger -> has influence on the [[Beweglichkeit (mobility)]] 
-
-
-## electron density
-# ![[electron density]] 
-## 4.1.3. [[heat capacity]] 
-- it is caused by both [[phonon]]s and electrons 
-$$C_V^{classical} = \frac{\partial \langle U \rangle}{\partial T}|_V = 2 \cdot N \cdot 3 \cdot \frac{1}{2} k_B = 3 N k_B$$
-## [[specific heat capacity]] 
-$$c_v = \gamma \cdot T$$
-with the [[Sommerfeld coefficient]] $$\gamma = \frac{\pi^2}{2} = \frac{n k_B}{T_F}$$
-The reason why it is so different to the heat capacity on its own is again Pauli principle. For the most electrons part of their degrees of freedom are "forzen", unusable because the space is already taken up by someone else. 
-
-# 4.2. Transporteigenschaften 
-
-## 4.2.1.  [[electric conductivity]]
-- Calculated with $$\sigma_{el} = \frac{J_{el}}{E} = n e \mu$$
-	- temperature dependance 
-		- observed: $\rho = \sigma^{-1}$ 
-		- from the quation we see that the mean distance between collistions is temperature dependand 
-		- in metalls scattering throuhg: phonones, defects, Probenoberfläche  
-		- scattering time is the sum of all $\tau^{-1}$ 
-- denoted with $\sigma_{el}$ is the proportionality constant between the [[Electric Force]] and [[current density]] $$\vec J_{el} = \sigma_{el} \vec E = - \sigma \cdot \triangledown \phi_{el}$$
-	-  use the [[drude mean velocity]] and [[electron density]] $n$ $$\vec J_{el} = - e n \vec \nu_D = n e \mu \vec E$$
-
-- [[thermal conductivity]] $$\vec J_h = - \kappa \cdot \triangledown T$$
-##  temperature dependance of the conductivity and resistance 
+####  temperature dependance of the conductivity and resistance 
 
 General relation from experimets is:  $$\rho = \sigma^{-1}$$
 from the equation : $$\rho^{-1}_{el} = \sigma_{el} = \frac{ne^2 l}{m \nu_F} = \frac{ne^2 \tau}{m}$$
@@ -123,13 +53,15 @@ from the equation : $$\rho^{-1}_{el} = \sigma_{el} = \frac{ne^2 l}{m \nu_F} = \f
 		=> scatterin time is therefore from the [[Mattheissen rule]] $$\tau^{-1} = \tau^{-1}_{phonon} + \tau^{-1}_{defect}...$$
 		this allows to look at all scattering parts seperately
 
-### [[electron phonon scattering]]
+### electric conductivity in different cases 
+### ![[electron phonon scattering]]
 
-### [[electron defect scattering]] 
+### ![[electron defect scattering]] 
 
-# experimentally
+#### experimentally
 - the scattering changes the conductivity a lot and has to be considerd, because there are no pure enough crystals that wouldn't at least have the scatterin on defects -> leads to [[Restwiderstand (residual resistance)]] 
 -> we need the [[residual resistans ratio (restwiderstandsverhältnis)]] $$RRR = \frac{\rho(300K)}{\rho_0}$$
+![[Pasted image 20260322123907.jpg]]
 
 ### 4.2.2.  [[thermal conductivity]]
 Definition:
@@ -138,13 +70,14 @@ Comparing with [[electric conductivity]] we get the [[Wiedermann Franz law]] $$\
 -> this makes sense, because in metalls both electric and thermal are important
 
 The ration of those two in metalls is the proportionality number [[Lorenz number]] $$L = \frac{\pi^2}{3} (\frac{k_B}{e})^2 \equiv \frac{\kappa}{\sigma \cdot T} = 2.44 \cdot 10^{-8} W \Omega/K^2$$
-# temperature dependance 
+####  temperature dependance 
 - there is a maximum of thermal conductivity
 - the maximum is better visible in low temperature, but the material has to be clear 
 - in alloys there is no maximum (to "dirty")
+![[Pasted image 20260322124001.jpg]]
 
 
-## 4.2.3. mobility in magnetic fields 
+### 4.2.3. mobility in magnetic fields 
 -> in [[electric conductivity]] electrons move because of a nelectric field 
 taking the part of the frequency we get the [[cyclotron velocity]] $$\omega_c \equiv \frac{e}{m} B$$
 Actuallty this effect is nicely sumed up in the:
@@ -173,19 +106,8 @@ Describtion:
 
 
 
-# [[Sommerfeld model]] 
-- assume -> electrons are in  [[fermi gas]], that can have the [[Schroedinger equation]] and [[Pauli exclustion principle]] applied to 
-- for the current flow we need the density "before" and "after": $$\vec J_{el} = - \frac{en \hbar}{m} \delta \vec k$$
-	- this is achievable if there is the **change of momentum ov the wave vector** -> possible  through external force and scattering 
-		- scattering also takes into account the relaxation time $\tau$ , like in the [[Drude modell]] $$\frac{\partial \langle \vec k \rangle }{\partial t}|_{scatter} = - \frac{\delta \vec k}{\tau}$$
-	- change of the force is from the [[equation of motion]] $$\vec F = - \vec E = m \frac{\partial \langle \vec \nu \rangle}{\partial t} = \hbar \frac{\partial \langle \vec k \rangle }{\partial t}$$$$ \to \frac{\partial \langle \vec k \rangle }{\partial t}|_{force} = - \frac{e \vec E}{\hbar}$$
-	- integrated over the whole change in force we get the change in **momentum** $$\int \frac{\partial \langle \vec k \rangle }{\partial t}|_{force} dt = \langle \vec k \rangle (t) - \langle \vec k \rangle^0 = \delta \vec k = - \frac{ e \vec E t}{\hbar}$$
-		- in the time $t$ the momentum of the electron gets bigger because of the force $\vec F$ by the amount of $\hbar \partial \vec k$
-		- ==this is the same, as the **shift of the [[fermi sphere]]** by the factor $\partial \vec k$ in the time $t$== 
-		- The [[fermi surface]] can show the allowe and not allowed states 
-[[fermi surface 2025-12-29 16.00.47.excalidraw]]
 
-# 4.3  [[energy band]] 
+## 4.3  [[energy band]] 
 - expansion of the free electron gas theory, by putting the electron in the potention of the nuclei and other electrons 
 -> it leads to a complicated [[Schroedinger equation]], reminding of the [[pertubation theory]] from quantum mechanics 
 

@@ -4,8 +4,15 @@
 - [[Gibbs energy]] $$G = U + pV - TS$$
 - in thermodynamical equillibrium -> $F,G$ at minimum (*at constant temperature is important, as the the chemical reaction might go the other way, if temperature high enough)
 	- looking at [[entropy]] liquids and gases are more stable than solid bodies (*makes sense, as the bigger the entropy, the smaller F and G both get . Loquids and gasses are much more random and have many more options and possible states*)
-## [[internal energy]]
-![[internal energy]]
+### 2.1.2. ![[Van der Waal]]
+
+### 2.1.3. ![[covalent]]
+
+### 2.1.4. ![[metallic connection]]
+
+
+
+### internal energy -> holds the atoms together 
 - Anziehende Energie 
 	- potential energy betweem elektrons and nucleus (= [[Coloumb energy]])
 	- kinetic energy :
@@ -16,24 +23,23 @@
 
 
 
+
 # 2.2. Crystall structures 
-==perfect crystal is the infinite repetition of identical structures==
+perfect crystal is the infinite repetition of identical structures
 
 ![[Crystall]]
 
-# 2.2.1.  [[Bravais grid]]
-For the mathematical describtion of the grid, we take the [[Bravais grid]]
-- the idealised, mathematical grid 
-- 3D grid ist made up from the points $$\vec R = n_1 \vec a_1 + n_2 \vec a_2 + n_3 \vec a_3$$
-	where these $\vec a_i$ are the **primitive Gittervektoren** (can't be lying in one plane)
-	with $|\vec a_i|$ is the [[grid constant]]
-- primitive grid cess or [[Elemntarzelle (primitive Gitterzelle)]]
-	- has the volume $$V_c = (\vec a_1 \times \vec a_2) \cdot \vec a_3$$
+# 2.2.1.  ![[Bravais grid]]
+
 
 ### [[Wigner Seitz cell]] 
 -> it is a special tupe of a [[Elemntarzelle (primitive Gitterzelle)]] 
 - has **one grid point in the centre** 
 
+
+
+
+# 2.2.2. Important crystal strucutres 
 ## [[simple cubic (sc)]]
 
 - we take only 1 atom  -> 8 atoms on the corners of the cube 
@@ -46,14 +52,17 @@ Important idea is the [[Packungsdichte (Atomic packing factor)]]
 ![[hcp]] 
 
 
-
-# 2.2.2. Important crystal strucutres 
+### some intresting types of crystals 
 -> [[CsCl]] 
 -> [[NaCl]]
 -> [[Diamant]]
 -> [[Zinkblende]]  
 -> [[Wurtzi strucutre]] 
 When an element could be both wurtzit and zinkblende, then we call it **==[[Polymorphismus]]==** 
+
+### [[Packungsdichte (Atomic packing factor)]] 
+$$\text{Packungsdichte} = \frac{\text{volume of atoms}}{\text{volume of unit cell}}$$
+
 
 
 
@@ -83,6 +92,8 @@ Diffratcion densitity is made up from scattering -> real part  and absorbiton ->
 - in order to describe the scattering, we use the [[reciprocal grid]] 
 $$\vec G = h \vec b_1 + k \vec b_2 + l \vec b_3$$
 		the grid made up from these vectors is then called the [[brillouin zone]] 
+
+
 ### 2.3.3 Von Laue condition 
 - it is used in the [[Laue condition]] bein the assumptionm although in the same way, but a bit worse, we can use the [[Bragg relation]] (here we assume that the particles have wave characteristics -> [[de Brogli wavelength]] can be used) 
 
@@ -118,7 +129,7 @@ An easy overview ove rall the ypes of diffrction particles and their energies
 
 
 
-# 2.4.1 [[Defects in crystals]] 
+# 2.4.1 ![[Defects in crystals]] 
 - a crystal should be made up from the periodic connection of lattice and basis, but soemtomes this order gets interrupted 
 - basis elements can be missing or shift from their usual place in the grid 
 
