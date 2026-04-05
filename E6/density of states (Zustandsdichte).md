@@ -7,6 +7,6 @@ For phonons (normed) $$D(\omega) = \frac{q^2}{2 \pi^2} \cdot (\frac{\partial \om
 	for [[acoustic phonons]] $$D_{acoust} (\omega) \sim \omega^2$$
 	[[optical phonons]] $$D_{opt} (\omega) = \delta (\omega - \omega_{opt})$$
 
-
+![[Pasted image 20260322010758.jpg]]
 
 More information in [[Kap. 4 electronic properties of metalls]]

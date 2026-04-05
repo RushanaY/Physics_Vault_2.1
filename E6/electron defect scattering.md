@@ -3,4 +3,3 @@
 ![[electron defect scattering 2025-12-29 16.24.05.excalidraw]]
 
 
-More information in [[Kap. 4 electronic properties of metalls]]

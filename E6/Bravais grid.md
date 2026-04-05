@@ -14,6 +14,9 @@
 
 We can also fill up the grid with [[conventional grid]]s 
 
+### Examples 
+![[Pasted image 20260311205506.jpg]]
+
 ### In 3D 
 - [[cubic]] ->  $a = b = c$ and $\alpha = \beta = \gamma = 90^{\circ}$ 
 	- [[primitive]]
@@ -33,3 +36,6 @@ We can also fill up the grid with [[conventional grid]]s
 - [[triklin]] -> $a \neq b \neq c$ and $\alpha \neq \beta \neq \gamma \neq 90^{\circ}$ 
 - [[hexagonal  grid shape]] -> $a \neq b \neq c$ and $\alpha = \beta = 90^{\circ}; \space \gamma = 120^{\circ}$ 
 - [[rhomboedrisch]] -> $a = b = c$ and $\alpha = \beta = \gamma \neq 90^{\circ}$  
+
+### In a table 
+![[Pasted image 20260311205539.jpg]]
