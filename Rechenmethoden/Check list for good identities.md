@@ -1,0 +1,2 @@
+$$\triangledown \times (\triangledown \times \vec E) = \triangledown (\triangledown \cdot \vec E) - \triangledown^2 \vec E = - \triangledown^2 \vec E$$
+$$\triangledown \cdot (u \times v ) = (\triangledown \times u) \cdot v - u \cdot (\triangledown \times v) $$
