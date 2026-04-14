@@ -1,0 +1,1 @@
+$$\vec \rho = \rho \vec E + \vec J \times \vec B$$ with $\vec \rho$ being the force density 
