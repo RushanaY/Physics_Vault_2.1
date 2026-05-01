@@ -1,0 +1,1 @@
+$$\vec f = \rho \vec E + \vec J \times \vec B$$ describes the impact of both E and B fields on matter 
