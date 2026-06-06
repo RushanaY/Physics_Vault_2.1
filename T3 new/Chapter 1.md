@@ -12,4 +12,4 @@ Define also the continuity equation
 
 
 More observations allowed the derivation of the Lorentz force 
-# ![[Lorentz force]] 
+# ![[Lorentz force]]  
